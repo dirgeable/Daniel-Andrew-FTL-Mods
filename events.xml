@@ -361,17 +361,14 @@ item - scrap + that thing  -->
 
 <event name="SHIP_FIRE">
 	<text>A blazing ship jumps just behind you and boardcasts a distress signal!</text>
-	
 	<choice hidden="true">
 		<text>Send in a crewmember to help estenguish the fires.</text>
 		<event load="SEND_IN_CREW" />
 	</choice>
-	
 	<choice hidden="true">
 		<text>You leave the suckers alone to bbq.</text>
 		<event />
 	</choice>
-	
 	<choice hidden="true">
 		<text>Blast em' out of the sky for salvage.</text>
 		<event>
@@ -393,7 +390,6 @@ item - scrap + that thing  -->
 			</choice>
 		</event>
 	</choice>
-	
 	<choice req="SHIP_REPAIR" hidden="true">
 		<text>Send in your hull repair drone to put out the blaze.</text>
 		<event>

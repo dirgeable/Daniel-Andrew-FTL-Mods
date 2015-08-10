@@ -3510,16 +3510,19 @@ HIDDEN SECTORS
 		<track>lostship</track>
 	</trackList>
 	<startEvent>START_BEACON</startEvent>
+	<event name="SHIP_RESCUE" min="15" max="20" />
+	<!--
 	<event name="STORE" min="1" max="2" />
-	<event name="ITEMS" min="1" max="2" />
-	<event name="NEUTRAL2" min="2" max="4" />
+	<event name="ITEMS" min="1" max="1" />
+	<event name="NEUTRAL_CIVILIAN" min="2" max="4" />
 	<event name="NOTHING" min="1" max="2" />
 	<event name="DISTRESS_BEACON" min="1" max="2" />
-	<event name="HOSTILE2" min="4" max="6" />
+	<event name="HOSTILE_CIVILIAN" min="4" max="6" />
 	<event name="NEBULA" min="0" max="4" />
 	<event name="QUESTS" min="1" max="1" />
 	<event name="HOSTILE1" min="2" max="2" />
 	<event name="HOSTILE_BOARDING" min="0" max="0" />
+	-->
 </sectorDescription>
 <sectorDescription name="FINAL" minSector="7" unique="true">
 	<nameList>
