@@ -58,8 +58,7 @@ STRUCTURE SECTORS
 		<track>lostship</track>
 	</trackList>
 	<startEvent>START_BEACON</startEvent>
-	<event name="SHIP_RESCUE" min="15" max="20" />
-	<!--
+	<event name="SHIP_RESCUE" min="0" max="1" />
 	<event name="STORE" min="1" max="2" />
 	<event name="ITEMS" min="1" max="1" />
 	<event name="NEUTRAL_CIVILIAN" min="2" max="4" />
@@ -70,7 +69,6 @@ STRUCTURE SECTORS
 	<event name="QUESTS" min="1" max="1" />
 	<event name="HOSTILE1" min="2" max="2" />
 	<event name="HOSTILE_BOARDING" min="0" max="0" />
-	-->
 </sectorDescription>
 <!--FINAL - The sector with the boss -->
 <sectorDescription name="FINAL" minSector="7" unique="true">
@@ -101,6 +99,7 @@ CIVILIAN SECTORS
 		<track>lostship</track>
 	</trackList>
 	<!--	<startEvent>START_BEACON_CIVILIAN</startEvent>   JUSTIN TO DO-->
+	<event name="SHIP_RESCUE" min="0" max="1" />
 	<event name="STORE" min="2" max="3" />
 	<event name="ITEMS" min="2" max="3" />
 	<event name="NEUTRAL_CIVILIAN" min="2" max="4" />
@@ -167,6 +166,7 @@ CIVILIAN SECTORS
 	<event name="QUESTS_ENGI" min="1" max="1" />
 	<event name="NEUTRAL_ENGI" min="5" max="7" />
 	<event name="HOSTILE_ENGI" min="5" max="7" />
+	<event name="SHIP_RESCUE" min="0" max="1" />
 </sectorDescription>
 <!-- -
 HOSTILE SECTORS
